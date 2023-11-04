@@ -22,9 +22,7 @@ public class Main {
                 select = 1;
                 sb.append(ch);
             } else if (ch == '>') {
-                while (!stack.isEmpty()) {
-                    sb.append(stack.pop());
-                }
+               
                 sb.append(ch);
                 select = 0;
 
