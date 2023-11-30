@@ -40,7 +40,7 @@ public class Main {
             }
             if(sum>M)
             {
-                max = Math.max(mid,max);
+                max = mid;
                 start = mid + 1;
             }
             else if(sum<M)
